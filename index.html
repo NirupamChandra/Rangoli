@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Positioning Exercise</title>
+  <style>
+    /* Write your code here */
+
+    
+
+    .blue-box{
+      width: 500px;
+      height: 300px;
+      background-color: blue;
+      position: absolute;
+      left: 150px;
+      top: 250px;
+    }
+
+    .yel-circle{
+      width: 200px;
+      height: 200px;
+      background-color: greenyellow;
+      border-radius: 50%;
+      position: absolute;
+      right: -100px;
+      top: -100px;
+      z-index: -1;
+    }
+
+    .red-circle{
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      border-radius: 50%;
+      position: absolute;
+      left: -100px;
+      top: -100px;
+      z-index: -1;
+    }
+
+    .org-circle{
+      width: 200px;
+      height: 200px;
+      background-color: orange;
+      border-radius: 50%;
+      position: absolute;
+      left: -100px;
+      bottom: -100px;
+      z-index: -1;
+    }
+
+    .temp-circle{
+      width: 200px;
+      height: 200px;
+      background-color: #d72ac6;
+      border-radius: 50%;
+      position: absolute;
+      right: -100px;
+      bottom: -100px;
+      z-index: -1;
+    }
+
+    .wht-circle{
+      width: 200px;
+      height: 200px;
+      background-color: rgb(255, 255, 255);
+      border-radius: 50%;
+      position: absolute;
+      left: 150px;
+      top: 50px;
+    }
+
+    .big{
+      height: 800px;
+      width: 800px;
+      background-color: rgb(102, 34, 34);
+      position: relative;
+      left: 25%;
+      top: 25%;
+      border-radius: 50%;
+      z-index: -1;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="big">
+    <div class="blue-box">
+      <div class="yel-circle">
+      </div>
+      <div class="red-circle">
+      </div>
+      <div class="org-circle">
+      </div>
+      <div class="temp-circle">
+      </div>
+      <div class="wht-circle">
+      </div>
+    </div>
+  </div>
+  
+  
+</body>
+
+</html>
